@@ -1,0 +1,128 @@
+body {
+        margin-top: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+             
+}
+
+#mainheader {
+    background-color: #0D21A1;  
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,.7);
+    position: fixed;  
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+#target {
+    height: 600px;
+    width: 15%;
+    position: absolute;
+    display: none;
+    top: 100px;
+    left: 0;
+    background-color: #0D21A1;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,.7);  
+    opacity:90%;
+      
+   
+}
+#target a {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 35px;
+    padding-top: 20px;
+
+}
+
+
+.btn {
+    width: 4%;
+    height: 4%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.navbar h2 {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: lighter;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;   
+}
+
+.logo {   
+    width: 6%;
+    height: 6%;
+    vertical-align: top;    
+    margin-right: 40px;
+    margin-top: 10px;
+    
+}
+.container {
+position: relative;
+margin-top: 80px;
+text-align: center;
+color: white;
+}
+
+/* probably, the image should be used as a background */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+.main-content {
+    margin: auto;
+    width: 1200px;
+    background-color: ;
+}
+
+.main-content h2 {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 72px;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+hr {
+    border: 0.5 solid black;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: lighter;
+    color: #0D21A1;
+    text-decoration: underline;
+}

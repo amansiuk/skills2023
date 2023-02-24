@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Halifax Canoe and Kayak</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+
+    
+        
+    <header id="mainheader">
+        <div class="navbar">
+            <script>
+
+                $(document).ready(function() {
+
+                    $('#dropdown').click( 'slow', function() {
+                        $('#target').toggle( 'slow', function() {
+                            
+
+                        });
+                    });
+                });
+                         
+                </script> 
+
+                
+
+            <img id="dropdown" class="btn" onclick="changeImage()" src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/hamburger.png" />
+            
+            <script>
+                function changeImage() {
+                    if (document.getElementById('dropdown').src == "https://raw.githubusercontent.com/Zulinov/skillsProjects/main/paddle-white.png") {
+                        document.getElementById('dropdown').src = "https://raw.githubusercontent.com/Zulinov/skillsProjects/main/paddle-white.png";
+
+                    } 
+                    else {
+                        document.getElementById('dropdown').src = "https://raw.githubusercontent.com/Zulinov/skillsProjects/main/paddle-white.png";}
+                    }
+                
+            </script> 
+
+            <!-- the button supposed to change back to it's initial image, but I could not find the way to code it -->
+            
+            
+            
+            <h2>Halifax Canoe and Kayak</h2> 
+            <img id="logotype" class="logo" src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/paddle-white.png" /> 
+            
+        </div>
+        <div id="target">
+                <a href="home.html">Home</a>
+                <a href="book.html">Book a Trip</a>
+                <a href="login.html">Admin Login</a>   
+    </div>
+    </header>
+
+    <main>
+
+    <div class="container">
+         
+            <img src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/canoe.jpg" alt="lake" width="1200px">
+            <div class="centered">
+                <h1>Come Experience Canada</h1>
+            </div> 
+               
+    </div>
+
+    <div class="main-content">
+        <h2>Upcoming Adventures</h2>
+        <hr>
+        <h3>Halifax</h3>
+        <p>Date: 2023 - 04 - 12</p>
+        <p>Duration: 4 days</p>
+    
+        <h4>Summary</h4>
+        <p>Your next adventure awaits a stone’s throw from downtown Halifax attractions, restaurants, 
+            hotels & the cruise ship terminal. Join us for an authentic East Coast experience on a 2 hour 
+            exploratour, a full day or overnight island adventure. Paddle from sunrise to sunset or under 
+            the full moon. Discover & explore the second largest natural harbour on the planet & our wild
+             islands. Enjoy marine life encounters, coastal hikes & beautiful beaches, island ecotours, 
+             culinary & glamping adventures. To have as much fun as our guides, just remember to pack a
+              sense of adventure & sense of humour!
+        </p>
+        
+        <h3>Sydney</h3>
+        <p>Date: 2023 - 05 - 10</p>
+        <p>Duration: 3 days</p>
+    
+        <h4>Summary</h4>
+        <p>The best way to experience some of the best coastline in the world? As close to water as possible. 
+            Paddle in serene solitude, take a lesson with a pro, or join a guided tour for an intimate exploration 
+            of our waters. Get to know Cape Breton Island stroke by stroke with an engaging canoe or kayak expedition. 
+            For over 30 years, we have been providing award-winning kayaking experiences around Cape Breton Island. 
+            Located on the Cabot Trail, we offer a variety of sea kayaking tours and packages to suit everyone’s needs, 
+            from beginner to advanced. We would be delighted to host your tour and share what we know best.
+            Come and see why we received Destination Cape Breton’s 2012 Product Development of the Year Award 
+            and TripAdvisor’s Top 10% in the world rating.  We were also a finalist for the Tourism Industry
+             Association of Canada’s 2013 Traveller Experience of the Year award.</p>
+       
+    </div>
+
+
+</main>
+</body>
+</html>
